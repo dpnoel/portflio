@@ -1,0 +1,415 @@
+html{height: 100vh;}
+
+nav a{
+	text-decoration: none;
+	font-size: 20px;
+	display: block;
+	width: 300px;
+	text-align: center;
+}
+nav a:link{
+	color:#000;
+}
+nav a:visited{
+	color:#ccc;
+}
+nav a:hover{
+	background:#c9f;color:#06c;
+}
+nav a:active{
+	background:#c9f;color:#fc0;
+}
+
+aside a{
+	display: block;
+	width: 255px;
+	height: 50px;
+	transition: all 200ms linear 0s, background-image 200ms linear 0s;
+	margin-left: -205px;
+}
+
+aside #facebook a:link {background-image: url(logo/facebook.png);background-repeat: no-repeat;}
+aside #facebook a:visited{background-image: url(logo/facebook.png);background-repeat: no-repeat;}
+aside #facebook a:hover {background:url(logo/facename.png);
+margin-left: -10px;
+background-repeat: no-repeat;}
+aside #facebook a:active{}
+
+
+aside #tumblr a:link {background-image: url(logo/tumblr.png);background-repeat: no-repeat;}
+aside #tumblr a:visited{background-image: url(logo/tumblr.png);background-repeat: no-repeat;}
+aside #tumblr a:hover {background:url(logo/tumbname.png);
+margin-left: -10px;
+background-repeat: no-repeat;}
+aside #tumblr a:active{}
+
+aside #word a:link {background-image: url(logo/word.png);background-repeat: no-repeat;}
+aside #word a:visited{background-image: url(logo/word.png);background-repeat: no-repeat;}
+aside #word a:hover {background:url(logo/wordname.png);
+margin-left: -10px;
+background-repeat: no-repeat;}
+aside #word a:active{}
+
+aside #you a:link {background-image: url(logo/youtube.png);background-repeat: no-repeat;}
+aside #you a:visited{background-image: url(logo/youtube.png);background-repeat: no-repeat;}
+aside #you a:hover {background:url(logo/tubename.png);
+margin-left: -10px;
+background-repeat: no-repeat;}
+aside #you a:active{}
+
+
+body{
+	font-family: 'Cherry Swash', cursive;
+  font-size: 20px;
+  margin: 0;
+  min-height: 100vh;
+  background-color:#c9f;
+	background-image:url(background/logo.png);
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-position: left bottom;
+}
+
+body #font{
+	font-family: 'Cherry Swash', cursive;
+}
+
+body #texte{
+  text-align: center;
+}
+
+h1{color:#000;background:#fa0;}
+
+main{
+width: 1600px;
+margin: auto;
+position: relative;
+}
+
+canvas{
+	width: 100%;
+	height: 100%auto;
+	position: fixed;
+	z-index: -999;
+	top: 0px;
+	left: 0px;
+}
+
+header{
+  margin-top:-10px;
+  margin-bottom:20px;
+  text-align: center;
+  padding-top: 10px;
+	padding-left: 35px;
+  font-size: 45px;
+  overflow: hidden;
+  color: #06c;
+}
+
+nav{
+width: 1600px;
+height: 30px;
+text-align: center;
+}
+
+#portfolio #texte{
+font-family: 'Indie Flower', cursive;
+}
+
+#desc{
+  width: 100%;
+  height: auto;
+  text-align: left;
+  padding: 10px;
+}
+
+footer{
+  width: 1024px;
+  margin-top: 10px;
+  text-align: center;
+  height:30px;
+  position: absolute;
+}
+
+aside{
+width: 130px;
+height: 105px;
+top: 195px;
+left: 0;
+position:fixed;
+padding-left: -10px;
+}
+
+ul {
+	list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.icon li{
+	width: 100px;
+}
+
+li{
+  list-style: none;
+	text-align: center;
+  padding: 0px;
+  margin: 0px;
+  float:left;
+  width: 300px;
+}
+
+hr{
+	background-color: #06c;
+	height: 1px;
+  border: 0;
+}
+
+.float_left{
+float:right;
+margin-right: 10px;
+margin-bottom: 5px;
+}
+
+.icon{
+margin-left: 10px;
+}
+
+.tata{
+	width: 864px;
+  height: 100%;
+  transition: all 1s ease-in 0s;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  position: absolute;
+}
+
+.gavel{
+	position:absolute;
+	transform: rotateY(0deg);
+}
+
+.port{
+	position: relative;
+	margin:auto;
+	margin-bottom: 35px;
+}
+.port0{
+	width: 864px;
+	height: 559px;
+	margin-top: 50px;
+}
+.text{
+	width: 864px;
+	height: 559px;
+	position:absolute;
+	transition: all 1s ease-in 0s;
+  transform: rotateY(180deg);
+	backface-visibility:hidden;
+}
+.port:hover .gavel{
+	  transform: rotateY(180deg);
+}
+.port:hover .text{
+	  background: #FFF;
+	  transform: rotateY(360deg);
+}
+
+.rosie{
+	position:absolute;
+	transform: rotateY(0deg);
+}
+.port1{
+	width: 864px;
+	height: 1296px;
+}
+.text1{
+	width: 864px;
+	height: 1296px;
+	position:absolute;
+	transition: all 1s ease-in 0s;
+  transform: rotateY(180deg);
+	backface-visibility:hidden;
+}
+.port1:hover .rosie{
+	  transform: rotateY(180deg);
+}
+.port1:hover .text1{
+	  background: #FFF;
+	  transform: rotateY(360deg);
+}
+
+.samus{
+	position:absolute;
+	transform: rotateY(0deg);
+}
+.port2{
+	width: 864px;
+	height: 487px;
+}
+.text2{
+	width: 864px;
+	height: 487px;
+	position:absolute;
+	transition: all 1s ease-in 0s;
+  transform: rotateY(180deg);
+	backface-visibility:hidden;
+}
+.port2:hover .samus{
+	  transform: rotateY(180deg);
+}
+.port2:hover .text2{
+	  background: #FFF;
+	  transform: rotateY(360deg);
+}
+
+.mt{
+	position:absolute;
+	transform: rotateY(0deg);
+}
+.port3{
+	width: 864px;
+	height: 559px;
+}
+.text3{
+	width: 864px;
+	height: 559px;
+	position:absolute;
+	transition: all 1s ease-in 0s;
+  transform: rotateY(180deg);
+	backface-visibility:hidden;
+}
+.port3:hover .mt{
+	  transform: rotateY(180deg);
+}
+.port3:hover .text3{
+	  background: #FFF;
+	  transform: rotateY(360deg);
+}
+
+.smite{
+	position:absolute;
+	transform: rotateY(0deg);
+}
+.port4{
+	width: 864px;
+	height: 1117px;
+}
+.text4{
+	width: 864px;
+	height: 1117px;
+	position:absolute;
+	transition: all 1s ease-in 0s;
+  transform: rotateY(180deg);
+	backface-visibility:hidden;
+}
+.port4:hover .smite{
+	  transform: rotateY(180deg);
+}
+.port4:hover .text4{
+	  background: #FFF;
+	  transform: rotateY(360deg);
+}
+
+@media screen and (min-width:1600px)
+{main{width: 1600px;}
+ footer{width: 1600px;}
+ nav{width: 1600px;}
+ li{width: 400px;}
+ #texte{width: 1600px;}
+}
+
+@media screen and (min-width:1200px) and (max-width:1599px)
+{main{width: 1200px;}
+ footer{width: 1200px;}
+ nav{width: 1200px;}
+ #texte{width: 1200px;}
+}
+
+@media screen and (min-width:800px) and (max-width:1199px)
+{main{width: 800px; margin-left: 50px;}
+ footer{width: 800px; margin-left: 50px;}
+ nav{width: 800px; margin-left: 50px;}
+ ul.menu{margin-left: 50px;}
+ #texte{width: 800px;}
+}
+
+@media screen and (min-width:0) and (max-width:799px)
+{main{width: 600px;}
+ footer{width: 600px;}
+ nav{width: 600px;}
+ #texte{width: 600px;}
+}
+
+#qr{display: none;}
+@media print{
+  nav{display: none;}
+  #qr{display: block;}
+	aside{display: none;}
+  }
+
+	@media screen and (min-width: 1200px) {
+		#desktop_1 {
+			background-color: #900;
+			color: #fff;
+		}
+	}
+	@media screen and (min-width: 800px) and (max-width: 1200px) and (min-device-width: 1024px) {
+		#desktop_2 {
+			background-color: #900;
+			color: #fff;
+		}
+	}
+	@media screen and (max-width: 800px) and (min-device-width: 1024px){
+		#desktop_3 {
+			background-color: #900;
+			color: #fff;
+		}
+	}
+
+	@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+		#ipad_1 {
+			background-color: #900;
+			color: #fff;
+		}
+	}
+
+	@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
+		#ipad_2 {
+			background-color: #900;
+			color: #fff;
+		}
+	}
+
+
+
+	@media screen and (max-width: 568px) and (orientation: landscape){
+		#iphone_1 {
+			background-color: #990;
+			color: #fff;
+		}
+		.myDisplay{
+			font-size: smaller;
+		}
+	}
+	@media screen and (max-width: 480px) and (orientation: landscape){
+		#iphone_1 {
+			background-color: #900;
+			color: #fff;
+		}
+		.myDisplay{
+			font-size: smaller;
+		}
+	}
+	@media screen and (max-width: 480px) and (orientation: portrait){
+		#iphone_2 {
+			background-color: #900;
+			color: #fff;
+		}
+		.myDisplay{
+			font-size: larger;
+		}
+	}
